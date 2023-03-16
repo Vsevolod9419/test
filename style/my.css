@@ -109,7 +109,7 @@ span {
 	.inter {
 		display: flex;
 		flex-direction: column;
-
+		align-items: center;
 	}
 	.cancel {
 		font-weight: 600;
