@@ -87,7 +87,7 @@ span {
   .address {
     background: #f3f3f7;
     border-radius: 10px;
-    padding: 18px 20px;
+    padding: 18px 35px 18px 20px;
   }
   .address__title {
     display: block;
@@ -109,6 +109,7 @@ span {
 	.inter {
 		display: flex;
 		flex-direction: column;
+
 	}
 	.cancel {
 		font-weight: 600;
@@ -120,8 +121,11 @@ span {
 		border-radius: 1000px;
 		border: none;
 		height: 48px;
-		width: 288px;
+		width: 90%;
+		max-width: 288px;
+	
 		margin-bottom: 10px;
+		
 	}
 	.menu {
 		font-weight: 600;
@@ -133,7 +137,8 @@ span {
 		border-radius: 1000px;
 		border: none;
 		height: 48px;
-		width: 288px;
+		width: 90%;
+		max-width: 288px;
 	}
 	span{
 		font-size: 12px;
